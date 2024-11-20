@@ -1,0 +1,125 @@
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+          scroll-behavior: smooth;
+      }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #cce7e0;
+            color: #333;
+        }
+
+        header {
+            background: #8dc1a9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .card {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #about{
+          background:#f8d9e1;
+        }
+
+        #habitat{
+          background:#fef5c9;
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        #fun-facts {
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+      }
+
+      #fun-facts ul {
+          width: 60%;
+      }
+
+      #fun-facts img {
+          width: 30%;
+          border-radius: 5px;
+        }
+      
+        @media (min-width: 768px) {
+            .content {
+                grid-template-columns: 2fr 1fr;
+            }
+        }
+    
